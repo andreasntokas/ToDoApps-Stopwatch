@@ -1,63 +1,63 @@
 :root {
-    --primary: rgb(176, 147, 255);
-    --dark: #1F2937;
-    --deep: #111827;
-    --light: #F3F4F6;
+  --primary: rgb(176, 147, 255);
+  --dark: #1f2937;
+  --deep: #111827;
+  --light: #f3f4f6;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Fira sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Fira sans", sans-serif;
 }
 
 body {
-    background: var(--dark);
-    color: var(--light);
+  background: var(--dark);
+  color: var(--light);
 }
 
 .watch {
-    text-align: center;
-    background-color: var(--deep);
-    width: 100%;
-    max-width: 360px;
-    margin: 4rem auto;
-    padding: 1rem 2rem;
-    border-radius: 1rem;
+  text-align: center;
+  background-color: var(--deep);
+  width: 100%;
+  max-width: 360px;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
 }
 
 .time {
-    font-size: 5rem;    
-    font-weight: 300;
-    margin-bottom: 1rem;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
 }
 
 .controls button {
-    appearance: none;
-    background: none;
-    border: none;
-    outline: none;
-    user-select: none;
-    cursor: pointer;
-    color: var(--light);
-    font-size: 1.125rem;
-    background-color: var(--primary);
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    transition: 0.4s;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+  color: var(--light);
+  font-size: 1.125rem;
+  background-color: var(--primary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.4s;
 }
 
 button:hover {
-    opacity: 0.75;
+  opacity: 0.75;
 }
 
 button:active {
-    background-color: var(--dark);
+  background-color: var(--dark);
 }
